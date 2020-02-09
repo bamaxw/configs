@@ -6,6 +6,12 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 plugins=(
 	git
 	docker
+	colored-man-pages
+	colorize
+	pip
+	python
+	brew
+	osx 
 	zsh-syntax-highlighting
 	zsh-autosuggestion
 )
