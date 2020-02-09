@@ -19,3 +19,5 @@ export LSCOLORS="exfxcxdxbxegedabagacad"
 
 alias ll="ls -lh"
 alias la="ls -A"
+alias vim='nvim'
+
