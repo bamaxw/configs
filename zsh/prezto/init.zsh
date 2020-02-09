@@ -1,0 +1,1 @@
+source ~/.zprezto/init.zsh
