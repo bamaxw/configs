@@ -14,9 +14,12 @@ Now go to `Preferences > Text` and select your favourite font from the list of f
 
 ## zsh
 ### Setting up zsh
-Run `zsh/install.sh` script in order to install zsh and oh-my-zsh. Alternatively follow instructions [here](https://www.freecodecamp.org/news/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156/)
+Run `zsh/install.sh` script in order to install zsh and tmux.
+Set your prefered ZSH manager in `zsh/init.zsh`.
+```bash
+ZSH_MODE="prezto"
+```
 
-### Adding custom zsh config to `.zshrc`
 Add
 ```bash
 source ~/config/zsh/config.sh
