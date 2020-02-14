@@ -11,7 +11,3 @@ if [[ ( "$SHLVL" -eq 1 && ! -o LOGIN ) && -s "${ZDOTDIR:-$HOME}/.zprofile" ]]; t
 fi
 
 PATH=$HOME/bin:/usr/local/bin:$PATH
-
-# Initialize pyenv
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"

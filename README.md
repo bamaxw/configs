@@ -22,6 +22,6 @@ ZSH_MODE="prezto"
 
 Add
 ```bash
-source ~/config/zsh/config.sh
+source ~/config/zsh/init.sh
 ```
 to your `.zshrc` file (file location may vary depending on where this repo was cloned).
